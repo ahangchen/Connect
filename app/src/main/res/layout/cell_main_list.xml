@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textSize="22sp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/name"/>
+
+        <Button
+            style="@style/call_message"
+            android:background="@drawable/msg50"
+            android:id="@+id/send_msg"/>
+
+        <Button
+            style="@style/call_message"
+            android:background="@drawable/call"
+            android:id="@+id/call"/>
+
+    </LinearLayout>
+
+    <View style="@style/bar"/>
+
+
+</LinearLayout>
